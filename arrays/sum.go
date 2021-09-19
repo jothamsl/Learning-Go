@@ -1,6 +1,6 @@
 package main
 
-func Sum(array [5]int) (cumulator int) {
+func Sum(array []int) (cumulator int) {
 	for _, num := range array {
 		cumulator += num
 	}
